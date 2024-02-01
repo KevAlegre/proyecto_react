@@ -1,0 +1,19 @@
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(237, 193, 48)
+}
+
+a:hover{
+    color: rgb(155, 119, 0)
+}
+
+h2 { 
+    color: rgb(199, 133, 0)
+}
+
+nav {
+    background-color: rgb(28, 28, 28);
+}
