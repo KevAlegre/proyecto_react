@@ -1,3 +1,5 @@
+import "./CartWidget.css"
+
 function CartWidget() {
     return (
         <div className="row align-items-center">
