@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget/CartWidget";
-import "./NavBar.css"
+import "./NavBar.css";
 
 function NavBar() {
     return (
         <header className="container-fluid">
             <nav className="row">
                 <div className="d-flex justify-content-center">                    
-                    <h2 className="mx-auto">Onda Sonora!</h2>
+                    <Link to="/" className="mx-auto brand-name">Onda Sonora!</Link>
                     <div className="">
                         <CartWidget/>
                     </div>
@@ -14,19 +15,19 @@ function NavBar() {
                 <div>
                     <ul className="d-flex justify-content-evenly">
                         <li>
-                            <a href="#">Guitarras</a>
+                            <Link to="" className="category-link">Guitarras</Link>
                         </li>
                         <li>
-                            <a href="#">Pianos</a>
+                            <Link to="" className="category-link">Pianos</Link>
                         </li>
                         <li>
-                            <a href="#">Bajos</a>
+                            <Link to="" className="category-link">Bajos</Link>
                         </li>
                         <li>
-                            <a href="#">Percusión</a>
+                            <Link to="" className="category-link">Percusión</Link>
                         </li>
                         <li>
-                            <a href="#">Amplificadores</a>
+                            <Link to="" className="category-link">Amplificadores</Link>
                         </li>
                     </ul>
                 </div>
