@@ -8,7 +8,6 @@ function ItemListContainer() {
     const {category} = useParams(); 
     const [products, setProducts] = useState([]);
 
-    // Me quedé aca por hacer las rutas del category
     useEffect(() => {
         const asyncFunc = category ? getProductsByCategory : getProducts
 

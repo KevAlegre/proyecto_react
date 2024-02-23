@@ -7,7 +7,7 @@ function ItemDetailContainer() {
 
     const {id} = useParams();
     const item = productList.find((prod) => prod.id === id);
-    const {instrument, category, price, description, image} = item;
+    const {instrument, category, price, alt, description, image} = item;
 
     return (
         <main className="main-idc">
@@ -17,11 +17,11 @@ function ItemDetailContainer() {
                     <h4 className="subtitle-idc">Categoría: {category}</h4>
                     <div className="container-info-idc">
                         <div>
-                            <img src={image} alt={description} className="img-idc"/>
+                            <img src={image} alt={alt} className="img-idc"/>
                         </div>
-                        <div>
+                        <div className="desc-container-idc">
                             <p className="description-idc">{description}</p>
-                            <ItemCount price={price}/>
+                            <ItemCount price={price} className="count-idc"/>
                         </div>
                     </div> 
                 </article>

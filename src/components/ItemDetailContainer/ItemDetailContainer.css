@@ -20,6 +20,12 @@
     border-radius: 10px;
 }
 
+.desc-container-idc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .description-idc{
     padding-left: 15px;
     font-size: 20px;

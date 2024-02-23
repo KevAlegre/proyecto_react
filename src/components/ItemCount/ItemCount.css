@@ -1,5 +1,8 @@
 .container-item-count{
     width: fit-content;
+    background-color: rgba(255, 225, 125, 0.085);
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .container-count-buttons{
