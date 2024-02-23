@@ -1,16 +1,16 @@
-li {
+.li-link {
     list-style: none;
 }
-.category-link {
+.category-link-nb {
     text-decoration: none;
     color: rgb(237, 193, 48);
 }
 
-.category-link:hover{
+.category-link-nb:hover{
     color: rgb(155, 119, 0);
 }
 
-nav {
+.nav-bar {
     background-color: rgb(28, 28, 28);
 }
 

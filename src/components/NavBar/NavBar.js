@@ -3,9 +3,10 @@ import CartWidget from "./CartWidget/CartWidget";
 import "./NavBar.css";
 
 function NavBar() {
+
     return (
         <header className="container-fluid">
-            <nav className="row">
+            <nav className="row nav-bar">
                 <div className="d-flex justify-content-center">                    
                     <Link to="/" className="mx-auto brand-name">Onda Sonora!</Link>
                     <div className="">
@@ -14,20 +15,23 @@ function NavBar() {
                 </div>
                 <div>
                     <ul className="d-flex justify-content-evenly">
-                        <li>
-                            <Link to="" className="category-link">Guitarras</Link>
+                        <li className="li-link">
+                            <Link to="category/guitarras" className="category-link-nb" >Guitarras</Link>
                         </li>
-                        <li>
-                            <Link to="" className="category-link">Pianos</Link>
+                        <li className="li-link">
+                            <Link to="category/pianos"  className="category-link-nb">Pianos</Link>
                         </li>
-                        <li>
-                            <Link to="" className="category-link">Bajos</Link>
+                        <li className="li-link">
+                            <Link to="category/bajos"  className="category-link-nb">Bajos</Link>
                         </li>
-                        <li>
-                            <Link to="" className="category-link">Percusión</Link>
+                        <li className="li-link">
+                            <Link to="category/saxofones"  className="category-link-nb">Saxofones</Link>
                         </li>
-                        <li>
-                            <Link to="" className="category-link">Amplificadores</Link>
+                        <li className="li-link">
+                            <Link to="category/percusion"  className="category-link-nb">Percusión</Link>
+                        </li>
+                        <li className="li-link">
+                            <Link to="category/amplificadores"  className="category-link-nb">Amplificadores</Link>
                         </li>
                     </ul>
                 </div>

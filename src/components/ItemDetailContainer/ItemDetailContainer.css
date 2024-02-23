@@ -1,4 +1,4 @@
-main{
+.main-idc{
     background-color: rgb(40, 40, 40);
 }
 
@@ -6,6 +6,21 @@ main{
     color: white;
 }
 
-.subtitle{
+.subtitle-idc{
     color: white;
+}
+
+.container-info-idc{
+    display: flex;
+    margin-top: 25px;
+}
+
+.img-idc{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.description-idc{
+    padding-left: 15px;
+    font-size: 20px;
 }

@@ -2,7 +2,7 @@ const productList = [
   {
     id: "1",
     instrument: "Fender Stratocaster",
-    category: "Guitarra",
+    category: "Guitarras",
     price: 1200,
     description:
       "La Fender Stratocaster, un ícono en guitarras eléctricas, ofrece versatilidad tonal y comodidad en un diseño clásico.",
@@ -12,7 +12,7 @@ const productList = [
   {
     id: "2",
     instrument: "Ibanez RG550",
-    category: "Guitarra",
+    category: "Guitarras",
     price: 1000,
     description:
       "La Ibanez RG550, ideal para guitarristas de rock y metal, ofrece potencia y velocidad con un estilo distintivo.",
@@ -21,7 +21,7 @@ const productList = [
   {
     id: "3",
     instrument: "Fender Jazz Bass",
-    category: "Bajo",
+    category: "Bajos",
     price: 1100,
     description:
       "El Fender Jazz Bass, conocido por su versatilidad, proporciona graves potentes y tonos ricos para diversos estilos musicales.",
@@ -30,7 +30,7 @@ const productList = [
   {
     id: "4",
     instrument: "DW Collector's Series",
-    category: "Batería",
+    category: "Percusion",
     price: 4000,
     description:
       "La DW Collector's Series, con cascos de arce y hardware premium, ofrece una experiencia de batería excepcional para músicos exigentes.",
@@ -39,17 +39,18 @@ const productList = [
   },
   {
     id: "5",
-    instrument: "Yamaha YTS-62",
-    category: "Saxofón",
-    price: 2200,
+    instrument: "Yamaha YAS-82Z",
+    category: "Saxofones",
+    price: 2800,
     description:
-      "El Yamaha YTS-62, saxofón tenor profesional, brinda un tono cálido y versátil, perfecto para músicos exigentes en jazz y más.",
-    image: "./assets/Parquer Tenor.jpg",
+      "El Yamaha YAS-82Z, saxofón alto profesional, ofrece un tono expresivo y una respuesta precisa, siendo una elección destacada para músicos de alto nivel.",
+    image:
+      "https://es.yamaha.com/es/files/yas-82zb_540x540_d5a8d81606d4cf6efda1f5b097a6b7b3.jpg",
   },
   {
     id: "6",
     instrument: "Selmer Mark VI",
-    category: "Saxofón",
+    category: "Saxofones",
     price: 5000,
     description:
       "El Selmer Mark VI, saxofón alto legendario, destaca por su calidad tonal excepcional y su artesanía insuperable en el mundo del jazz.",
@@ -59,7 +60,7 @@ const productList = [
   {
     id: "7",
     instrument: "Roland FP-30",
-    category: "Piano",
+    category: "Pianos",
     price: 700,
     description:
       "El Roland FP-30, piano digital portátil, ofrece autenticidad de sonido de piano de cola en un diseño compacto para músicos en movimiento.",
@@ -68,7 +69,7 @@ const productList = [
   {
     id: "8",
     instrument: "Korg Kronos 88",
-    category: "Teclado",
+    category: "Pianos",
     price: 3500,
     description:
       "El Korg Kronos 88, una workstation potente con teclas contrapesadas, es esencial para productores y músicos que buscan calidad y versatilidad.",
@@ -77,28 +78,28 @@ const productList = [
   },
   {
     id: "9",
-    instrument: "Yamaha P-125",
-    category: "Teclado",
-    price: 600,
+    instrument: "Kawai ES8",
+    category: "Pianos",
+    price: 1800,
     description:
-      "El Yamaha P-125, teclado digital portátil, ofrece sonidos auténticos y una acción de teclas de piano, ideal para músicos en desarrollo.",
+      "El piano digital Kawai ES8, con teclas contrapesadas y sonidos auténticos, proporciona una experiencia de piano premium para músicos exigentes.",
     image:
-      "https://www.heavenimagees.com/heavencommerce/0c5cacb8-dfbd-471a-ac7e-5c09a26f6da9/images/v2/YAMAHA/8047_medium.jpg",
+      "https://d1aeri3ty3izns.cloudfront.net/media/23/230175/600/preview_10.jpg",
   },
   {
     id: "10",
-    instrument: "Marshall JCM800",
-    category: "Amplificador",
-    price: 1500,
+    instrument: "Fender Deluxe Reverb",
+    category: "Amplificadores",
+    price: 1300,
     description:
-      "El amplificador Marshall JCM800, venerado por su potencia y tono, es esencial para guitarristas que buscan un sonido icónico y definido.",
+      "El amplificador Fender Deluxe Reverb ofrece un tono limpio y vibrante, ideal para guitarristas que buscan calidad y versatilidad.",
     image:
-      "https://www.heavenimagees.com/heavencommerce/442fba24-f11b-4699-8986-ef30a182c02c/images/v2/MARSHALL/1710251716235006_11_medium.jpg",
+      "https://distingomusicstores.com/wp-content/uploads/2022/02/Fender-65-DELUXE-REVERB%C2%AE.jpg",
   },
   {
     id: "11",
     instrument: "Fender Bassman",
-    category: "Amplificador",
+    category: "Amplificadores",
     price: 1200,
     description:
       "El Fender Bassman, clásico amplificador para bajos, proporciona tonos cálidos y vintage que han definido el sonido del bajo eléctrico.",
@@ -107,7 +108,7 @@ const productList = [
   {
     id: "12",
     instrument: "Roland JC-120",
-    category: "Amplificador",
+    category: "Amplificadores",
     price: 800,
     description:
       "El Roland JC-120, conocido por su limpieza y sonido estéreo distintivo, es una elección popular entre guitarristas para una reproducción fiel del sonido.",
@@ -117,7 +118,7 @@ const productList = [
   {
     id: "13",
     instrument: "Gibson Les Paul Standard",
-    category: "Guitarra",
+    category: "Guitarras",
     price: 2500,
     description:
       "La Gibson Les Paul Standard, icónica por su tono poderoso, artesanía superior y diseño clásico, es una elección preferida entre guitarristas de todos los estilos.",
@@ -127,7 +128,7 @@ const productList = [
   {
     id: "14",
     instrument: "Pearl Masterworks",
-    category: "Batería",
+    category: "Percusion",
     price: 4500,
     description:
       "La Pearl Masterworks, con cascos personalizados y acabados impresionantes, es una batería de alta gama diseñada para músicos que buscan calidad excepcional.",
@@ -137,7 +138,7 @@ const productList = [
   {
     id: "15",
     instrument: "Yamaha CP88",
-    category: "Teclado",
+    category: "Pianos",
     price: 2500,
     description:
       "El Yamaha CP88, un piano de escenario premium con teclas contrapesadas y sonidos auténticos, proporciona una experiencia excepcional para músicos en vivo.",
@@ -146,3 +147,22 @@ const productList = [
 ];
 
 export default productList;
+
+export const getProducts = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(productList);
+    }, 100);
+  })
+};
+
+export const getProductsByCategory = (category) => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      const upperCategory = category.charAt(0).toUpperCase() + category.slice(1);
+      console.log(category);
+      console.log(upperCategory);
+      resolve(productList.filter(prod => prod.category === upperCategory));
+    }, 500);
+  });
+};

@@ -1,19 +1,14 @@
-main{
-    background-color: rgb(40, 40, 40);
-}
-
 .title-ilc{
-
     color: white;
     text-align: center;
 }
 
-.container-products{
+.container-products-ilc{
     display: flex;
     flex-wrap: wrap;
 }
 
-.product-card{
+.product-card-ilc{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,16 +21,16 @@ main{
     border-radius: 10px;
 }
 
-.img{
+.img-ilc{
     width: 300px;
     border-radius: 10px;
 }
 
-.product-name{
+.product-name-ilc{
     text-align: center;
 }
 
-.info-product{
+.info-product-ilc{
     background-color: rgb(155, 119, 0);
     border-radius: 5px;
     color: white;
