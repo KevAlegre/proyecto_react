@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget/CartWidget";
 import "./NavBar.css";
 
-function NavBar() {
+export default function NavBar() {
 
     return (
         <header className="container-fluid">
@@ -39,5 +39,3 @@ function NavBar() {
         </header>
     );
 }
-
-export default NavBar;

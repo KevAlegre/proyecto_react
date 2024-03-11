@@ -1,7 +1,8 @@
 import { useState } from "react";
-import "./ItemCount.css";
+import "./ItemQuantitySelector.css";
+import AddItemButton from "../AddItemButton/AddItemButton";
 
-function ItemCount( { price } ) {
+export default function ItemQuantitySelector( { price } ) {
 
     const [count, setCount] = useState(0);
 
@@ -21,9 +22,7 @@ function ItemCount( { price } ) {
                 <p className="count-number">{count}</p>
                 <button onClick={handleClickAdd} className="count-button">+</button>
             </div>
-            <button className="add-to-cart">Agregar al carrito</button>
+            <AddItemButton/>
         </div>
     );
 };
-
-export default ItemCount;
