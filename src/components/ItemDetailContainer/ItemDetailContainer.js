@@ -20,6 +20,7 @@ export default function ItemDetailContainer() {
 
         setProducts(item);
     };
+    
     const { id } = useParams();
 
     useEffect(() => {

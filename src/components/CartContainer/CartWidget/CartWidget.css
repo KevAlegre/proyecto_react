@@ -1,0 +1,19 @@
+div i, p {
+    color: rgb(199, 133, 0)
+}
+
+.widget-container{
+    background-color: rgba(255, 225, 125, 0.278);
+    width: 65px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cart-quantity{
+    padding-top: 10px;
+    font-size: 25px;
+}

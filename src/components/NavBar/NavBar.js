@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import CartWidget from "./CartWidget/CartWidget";
+import CartWidget from "../CartContainer/CartWidget/CartWidget";
 import "./NavBar.css";
 
 export default function NavBar() {
@@ -7,11 +7,9 @@ export default function NavBar() {
     return (
         <header className="container-fluid">
             <nav className="row nav-bar">
-                <div className="d-flex justify-content-center">                    
+                <div className="top-nav">                    
                     <Link to="/" className="mx-auto brand-name">Onda Sonora!</Link>
-                    <div className="">
-                        <CartWidget/>
-                    </div>
+                    <CartWidget/>
                 </div>
                 <div>
                     <ul className="d-flex justify-content-evenly">

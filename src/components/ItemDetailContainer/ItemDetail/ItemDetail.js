@@ -14,7 +14,7 @@ export default function ItemDetail({products}) {
                 </div>
                 <div className="desc-container-idc">
                     <Description description={description}/>
-                    <ItemQuantitySelector price={price} className="count-idc" />
+                    <ItemQuantitySelector price={price} products={products} className="count-idc" />
                 </div>
             </div>
         </article>

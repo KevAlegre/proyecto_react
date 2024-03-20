@@ -32,3 +32,11 @@
     background-color: rgb(155, 119, 0);
     border: none;
 }
+
+.disabledButton{
+    border-radius: 5px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.256);
+    background-color: rgba(176, 25, 25, 0.304);
+    border: none;
+}

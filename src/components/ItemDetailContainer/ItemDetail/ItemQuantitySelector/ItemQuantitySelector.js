@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./ItemQuantitySelector.css";
 import AddItemButton from "../AddItemButton/AddItemButton";
 
-export default function ItemQuantitySelector( { price } ) {
+export default function ItemQuantitySelector( { price, products } ) {
 
     const [count, setCount] = useState(0);
 
@@ -13,7 +13,7 @@ export default function ItemQuantitySelector( { price } ) {
     function handleClickSubstract() {
         count > 0 && setCount( count - 1 )
     }
-
+    
     return (
         <div className="container-item-count">
             <p>Total: ${price * count} USD</p>
@@ -22,7 +22,14 @@ export default function ItemQuantitySelector( { price } ) {
                 <p className="count-number">{count}</p>
                 <button onClick={handleClickAdd} className="count-button">+</button>
             </div>
-            <AddItemButton/>
+            {
+                count > 0 ? (
+                <AddItemButton quantity={count} products={products}/>
+                ) : (
+                <button className="disabledButton">Agregar al carrito</button>
+                )
+            }
+
         </div>
     );
 };
