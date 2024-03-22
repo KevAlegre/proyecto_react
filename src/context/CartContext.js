@@ -16,9 +16,9 @@ export function CartProvider({ children }) {
   };
 
   const addItem = (item, quantity) => {
-    if(!isInCart(item.id)) {
-        setCart((prev) => [...prev, {...item, quantity}]);
-    };
+    if (!isInCart(item.id)) {
+      setCart((prev) => [...prev, { ...item, quantity }]);
+    }
   };
 
   const removeItem = (itemId) => {
@@ -35,8 +35,17 @@ export function CartProvider({ children }) {
   };
 
   return (
-    <CartContext.Provider value={{cart, addItem, removeItem, clearCart, totalPrice, totalQuantity}}>
-        {children}
+    <CartContext.Provider
+      value={{
+        cart,
+        addItem,
+        removeItem,
+        clearCart,
+        totalPrice,
+        totalQuantity,
+      }}
+    >
+      {children}
     </CartContext.Provider>
   );
 }

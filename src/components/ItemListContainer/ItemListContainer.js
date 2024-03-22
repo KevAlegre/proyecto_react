@@ -23,14 +23,14 @@ export default function ItemListContainer() {
 
   const getProductsByCategory = async () => {
     const upperCategory = category.charAt(0).toUpperCase() + category.slice(1);
-    const data = await getDocs(
-      itemsCollection
-    );
+    const data = await getDocs(itemsCollection);
     const filteredData = data.docs.map((doc) => ({
       ...doc.data(),
       id: doc.id,
-    }))
-    const newFilteredData = filteredData.filter((prod) => prod.category === upperCategory);
+    }));
+    const newFilteredData = filteredData.filter(
+      (prod) => prod.category === upperCategory
+    );
 
     setProducts(newFilteredData);
   };
@@ -43,7 +43,7 @@ export default function ItemListContainer() {
   return (
     <main>
       <h1 className="title-ilc">¡Musicalizate a tu mejor estilo!</h1>
-      <ItemList products={products}/>
+      <ItemList products={products} />
     </main>
   );
 }

@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDB7yLSqobEttBZkkLE5QOPhlmLlqkOiY4",
-  authDomain: "onda-sonora.firebaseapp.com",
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain: process.env.REACT_APP_authDomain,
   projectId: "onda-sonora",
-  storageBucket: "onda-sonora.appspot.com",
-  messagingSenderId: "250534067114",
-  appId: "1:250534067114:web:3d13fb8363620819be49d3"
+  storageBucket: process.env.REACT_APP_storageBucket,
+  messagingSenderId: process.env.REACT_APP_messagingSenderId,
+  appId: process.env.REACT_APP_appId,
 };
 
 const app = initializeApp(firebaseConfig);

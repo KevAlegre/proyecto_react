@@ -36,7 +36,9 @@ export default function Cart() {
           >
             Limpiar carrito
           </button>
-          <button className="cart-button">Checkout</button>
+          <Link to="/checkout">
+            <button className="cart-button">Checkout</button>
+          </Link>
         </div>
       </div>
     </div>
